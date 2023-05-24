@@ -1,0 +1,59 @@
+<HTML>
+<BODY>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 1.4;
+  
+}
+.text-red {
+  color: red;
+}
+
+  </style>
+<TABLE BORDER=1 ALIGN=center>
+<TR><TH>Простий Заголовок</TH><TH COLSPAN=3>Заголовок на 3 стовпця</TH></TR>
+<TR>
+<TH bgcolor=gray>Заголовок на 1 рядок</TH>
+<TD align=left bgcolor=gray>Комірка 1</TD>
+<TD align=left bgcolor=cyan>Комірка 2</TD>
+</TR>
+<TR>
+<TH ROWSPAN=3>Заголовок на 3 рядки</TH>
+<TD align=center>Комірка 3</TD>
+<TD align=right>Комірка 4</TD>
+</TR>
+<TR><TD align=left class="text-red">Комірка 5</TD><TD ROWSPAN=2 align=center valign=bottom>Комірка 6</TD></TR>
+<TR><TD align=left>Комірка 7</TD>
+</TABLE>
+</BODY>
+</HTML>
